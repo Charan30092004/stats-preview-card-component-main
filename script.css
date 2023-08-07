@@ -1,0 +1,132 @@
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color:  hsl(233, 47%, 7%);
+    color:  hsl(0, 0%, 100%);
+    width: 1440px;
+}
+
+#main
+{
+    width: 50%;
+    
+    border: 1px solid hsl(244, 38%, 16%);
+    margin:   15% 27%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    background-color:  hsl(244, 38%, 16%);
+}
+#content
+{
+    
+    padding: 20px 40px ;
+    width: 60%;
+    box-sizing: border-box;
+        
+}
+p
+{
+    color: gray;
+    font-size: 15px;
+   
+}
+#image
+{
+    
+    width: 50%;
+    
+    background-color:hsl(277, 64%, 61%) ;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+#insights{
+    color:hsl(277, 64%, 61%);
+    }
+
+img{
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 40%;
+    border-radius: 0 10px 10px 0;
+    
+    }
+
+#rating {
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.value{
+
+    color:  hsl(0, 0%, 100%);
+    font-size: 20px;
+    
+    
+}
+
+@media  (max-width:375px)
+{
+    body
+        {
+            max-width: 375px;  
+            /*border: 1px solid hsl(244, 38%, 16%);
+            background-color: hsl(244, 38%, 16%);*/
+        }
+    #main
+    {
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+       
+    }
+    #rating
+    {
+        display: block;
+    }
+    .value
+    {
+        display: block;
+    }
+    img,#image
+    {
+        border-radius: 16px 16px 0 0;
+        width: 100%;   
+    }
+    #image
+    {
+        border-radius: 0;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        
+    }
+    #content
+    {
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+    h1,.value
+    {
+        text-align: center;
+        font-size:large;
+        
+    }
+    p{
+        font-size: smaller;
+        text-align: center;
+    }
+
+}
+    
+
